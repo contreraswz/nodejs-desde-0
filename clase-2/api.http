@@ -1,0 +1,13 @@
+###RECUPERAR INFO DEL POKE
+GET  http://localhost:1234/pokemon/ditto
+###ABOUT
+GET  http://localhost:1234/about
+###CREAR UN POKE
+POST  http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+    "name":"ditto",
+    "type":"normal",
+    "moves":["transform"]
+}
